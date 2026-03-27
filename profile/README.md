@@ -4,7 +4,7 @@ Building developer tools, automation workflows, and web applications.
 
 ![Public Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/orgs/zb-ss&query=$.public_repos&label=public%20repos&color=blue)
 
-## Projects
+## Public projects
 
 <!-- REPOS:START -->
 ### TypeScript
