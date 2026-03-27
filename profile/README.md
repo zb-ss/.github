@@ -18,6 +18,7 @@ Building developer tools, automation workflows, and web applications.
 |------|-------------|
 | [servonaut](https://github.com/zb-ss/servonaut) | A modern Terminal User Interface (TUI) for managing servers — SSH, SCP, scanning & more. | :star: 3
 | [hftool](https://github.com/zb-ss/hftool) | CLI tool to interact with HF Transformer models | :star: 4
+| [aider](https://github.com/zb-ss/aider) | aider is AI pair programming in your terminal |
 
 ### JavaScript
 | Repo | Description |
@@ -33,6 +34,7 @@ Building developer tools, automation workflows, and web applications.
 | Repo | Description |
 |------|-------------|
 | [claude-plugin-git](https://github.com/zb-ss/claude-plugin-git) | Git and GitHub workflow commands for Claude Code |
+| [token.js](https://github.com/zb-ss/token.js) | Integrate 200+ LLMs with one TypeScript SDK using OpenAI's format. |
 
 <!-- REPOS:END -->
 
