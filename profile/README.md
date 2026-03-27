@@ -7,7 +7,35 @@ Building developer tools, automation workflows, and web applications.
 ## Projects
 
 <!-- REPOS:START -->
-<!-- auto-populated by GitHub Actions -->
+### TypeScript
+| Repo | Description |
+|------|-------------|
+| [opencode-workflows](https://github.com/zb-ss/opencode-workflows) | Development workflows for OpenCode. | :star: 7
+| [claude-plugin-translate](https://github.com/zb-ss/claude-plugin-translate) | Joomla i18n translation workflows for Claude Code |
+
+### Python
+| Repo | Description |
+|------|-------------|
+| [servonaut](https://github.com/zb-ss/servonaut) | A modern Terminal User Interface (TUI) for managing servers — SSH, SCP, scanning & more. | :star: 3
+| [hftool](https://github.com/zb-ss/hftool) | CLI tool to interact with HF Transformer models | :star: 4
+| [aider](https://github.com/zb-ss/aider) | aider is AI pair programming in your terminal |
+
+### JavaScript
+| Repo | Description |
+|------|-------------|
+| [claude-plugin-workflow](https://github.com/zb-ss/claude-plugin-workflow) | Automated development workflow orchestration for Claude Code | :star: 1
+
+### Shell
+| Repo | Description |
+|------|-------------|
+| [ubuntu-hibernation](https://github.com/zb-ss/ubuntu-hibernation) | Bash scrip to setup hibernation on Ubuntu with swap partition |
+
+### Other
+| Repo | Description |
+|------|-------------|
+| [claude-plugin-git](https://github.com/zb-ss/claude-plugin-git) | Git and GitHub workflow commands for Claude Code |
+| [token.js](https://github.com/zb-ss/token.js) | Integrate 200+ LLMs with one TypeScript SDK using OpenAI's format. |
+
 <!-- REPOS:END -->
 
 ## Tech Stack
