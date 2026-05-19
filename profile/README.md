@@ -16,7 +16,7 @@ Building developer tools, automation workflows, and web applications.
 ### Python
 | Repo | Description |
 |------|-------------|
-| [servonaut](https://github.com/zb-ss/servonaut) | A modern Terminal User Interface (TUI) for managing servers — SSH, SCP, scanning & more. | :star: 3
+| [servonaut](https://github.com/zb-ss/servonaut) | Manage AWS, Hetzner, OVH, and custom servers from one TUI — with a built-in AI assistant and MCP server | :star: 3
 | [hftool](https://github.com/zb-ss/hftool) | CLI tool to interact with HF Transformer models | :star: 4
 
 ### JavaScript
