@@ -10,7 +10,7 @@ Building developer tools, automation workflows, and web applications.
 ### TypeScript
 | Repo | Description |
 |------|-------------|
-| [opencode-workflows](https://github.com/zb-ss/opencode-workflows) | Development workflows for OpenCode. | :star: 7
+| [opencode-workflows](https://github.com/zb-ss/opencode-workflows) | Development workflows for OpenCode. | :star: 8
 | [claude-plugin-translate](https://github.com/zb-ss/claude-plugin-translate) | Joomla i18n translation workflows for Claude Code |
 
 ### Python
