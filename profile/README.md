@@ -16,7 +16,7 @@ Building developer tools, automation workflows, and web applications.
 ### Python
 | Repo | Description |
 |------|-------------|
-| [servonaut](https://github.com/zb-ss/servonaut) | Manage AWS, Hetzner, OVH, and custom servers from one TUI — with a built-in AI assistant and MCP server | :star: 17
+| [servonaut](https://github.com/zb-ss/servonaut) | Manage AWS, Hetzner, OVH, and custom servers from one TUI — with a built-in AI assistant and MCP server | :star: 18
 | [textual-pilot-mcp](https://github.com/zb-ss/textual-pilot-mcp) |  |
 | [agent-group-mcp](https://github.com/zb-ss/agent-group-mcp) | Agent group mcp |
 | [hftool](https://github.com/zb-ss/hftool) | CLI tool to interact with HF Transformer models | :star: 4
