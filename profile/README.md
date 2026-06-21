@@ -16,6 +16,7 @@ Building developer tools, automation workflows, and web applications.
 ### Python
 | Repo | Description |
 |------|-------------|
+| [asana-org](https://github.com/zb-ss/asana-org) | A powerful, bidirectional synchronization tool between Asana and Emacs Org-mode. |
 | [servonaut](https://github.com/zb-ss/servonaut) | Manage AWS, Hetzner, OVH, and custom servers from one TUI — with a built-in AI assistant and MCP server | :star: 18
 | [textual-pilot-mcp](https://github.com/zb-ss/textual-pilot-mcp) |  |
 | [agent-group-mcp](https://github.com/zb-ss/agent-group-mcp) | Agent group mcp |
