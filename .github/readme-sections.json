@@ -1,0 +1,15 @@
+{
+  "featured_repos": ["servonaut"],
+  "ignored_repos": [".github"],
+  "sections": [
+    {
+      "title": "Servers & DevOps",
+      "topics": ["server-management", "devops", "sre"]
+    },
+    {
+      "title": "AI coding-agent tooling",
+      "topics": ["claude-code", "opencode", "coding-agents", "mcp"]
+    }
+  ],
+  "fallback_title": "More tools"
+}
