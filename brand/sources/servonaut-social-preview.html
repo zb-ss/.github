@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1280">
+<title>Servonaut social preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=block" rel="stylesheet">
+<style>
+  :root {
+    --bg-dark: #070B14;
+    --bg-terminal: #0D1117;
+    --accent-primary: #00F2FE;
+    --accent-secondary: #4FACFE;
+    --border-color: #1F2937;
+    --text-main: #F9FAFB;
+    --text-muted: #9CA3AF;
+    --font-sans: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; }
+  body {
+    position: relative;
+    background:
+      radial-gradient(ellipse 620px 420px at 8% 0%, rgba(0, 242, 254, 0.13), transparent 70%),
+      radial-gradient(ellipse 700px 500px at 100% 100%, rgba(79, 172, 254, 0.10), transparent 70%),
+      var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+  }
+  body::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: linear-gradient(to bottom, black, transparent 85%);
+  }
+  .copy {
+    position: absolute; left: 120px; top: 76px; width: 540px;
+    display: flex; flex-direction: column; gap: 28px;
+  }
+  .brand { display: flex; align-items: center; gap: 22px; }
+  .brand svg { width: 92px; height: 92px; filter: drop-shadow(0 0 18px rgba(0, 242, 254, 0.35)); }
+  .brand h1 { font-size: 72px; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+  .tagline { font-size: 38px; font-weight: 700; line-height: 1.18; letter-spacing: -0.02em; }
+  .tagline .glow {
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .lede { font-size: 21px; line-height: 1.45; color: var(--text-muted); font-weight: 500; }
+  .lede strong { color: var(--text-main); font-weight: 600; }
+  .footer {
+    position: absolute; left: 120px; bottom: 64px;
+    display: flex; align-items: center; gap: 18px;
+    font-family: var(--font-mono); font-size: 21px; font-weight: 500;
+  }
+  .url {
+    color: var(--bg-dark); font-weight: 700;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    padding: 10px 18px; border-radius: 10px;
+  }
+  .install { color: var(--text-muted); }
+  .install b { color: var(--accent-primary); font-weight: 700; }
+  .window {
+    position: absolute; left: 708px; top: 92px; width: 680px; height: 456px;
+    background: var(--bg-terminal);
+    border: 1px solid var(--border-color); border-radius: 16px; overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(0, 242, 254, 0.15), 0 30px 80px rgba(0, 0, 0, 0.6), 0 0 60px rgba(0, 242, 254, 0.10);
+  }
+  .chrome {
+    height: 38px; display: flex; align-items: center; gap: 9px; padding: 0 16px;
+    border-bottom: 1px solid var(--border-color); background: #0A0F1A;
+  }
+  .chrome i { width: 12px; height: 12px; border-radius: 50%; display: block; }
+  .chrome i:nth-child(1) { background: #EF4444; }
+  .chrome i:nth-child(2) { background: #FBB024; }
+  .chrome i:nth-child(3) { background: #22C55E; }
+  .chrome span { margin-left: 12px; font-family: var(--font-mono); font-size: 14px; color: var(--text-muted); }
+  .shot {
+    width: 100%; height: calc(100% - 38px);
+    background: url("https://raw.githubusercontent.com/zb-ss/servonaut/master/docs/screenshots/instances.png") no-repeat;
+    /* Crop to the sidebar and the top of the instance table; hides the old version label. */
+    background-size: 1500px auto;
+    background-position: -4px -66px;
+  }
+</style>
+</head>
+<body>
+  <section class="copy">
+    <div class="brand">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <rect x="5" y="5" width="90" height="90" rx="18" ry="18" fill="#070B14" stroke="#00F2FE" stroke-width="3"/>
+        <polyline points="22,35 42,50 22,65" fill="none" stroke="#00F2FE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="48" y1="65" x2="72" y2="65" stroke="#00F2FE" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+      <h1>Servonaut</h1>
+    </div>
+    <p class="tagline">Your servers. Your terminal.<br><span class="glow">Your AI agent. One TUI.</span></p>
+    <p class="lede">Manage <strong>AWS, Hetzner, OVH</strong> and custom servers from one terminal, with a built-in AI assistant and <strong>MCP server</strong>.</p>
+  </section>
+  <div class="footer">
+    <span class="url">servonaut.dev</span>
+    <span class="install"><b>$</b> pipx install servonaut</span>
+  </div>
+  <div class="window">
+    <div class="chrome"><i></i><i></i><i></i><span>servonaut</span></div>
+    <div class="shot" role="img" aria-label="Servonaut instance list"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><defs><style>@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&amp;display=block");</style><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00F2FE"/><stop offset="1" stop-color="#4FACFE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#00F2FE" stop-opacity="0.18"/><stop offset="1" stop-color="#00F2FE" stop-opacity="0"/>
+    </radialGradient></defs>
+      <rect width="512" height="512" fill="#070B14"/>
+      <rect width="512" height="512" fill="url(#glow)"/>
+      <g font-family="JetBrains Mono" font-weight="800" font-size="196">
+        <text x="84" y="236" fill="#F9FAFB">zb</text>
+        <text x="84" y="404" fill="url(#g)">ss</text>
+      </g>
+      <rect x="334" y="378" width="96" height="30" rx="15" fill="url(#g)"/>
+    </svg>
