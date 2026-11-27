@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZBSS avatar concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800;900&family=JetBrains+Mono:wght@500;800&display=block" rel="stylesheet">
+<style>
+  :root { --bg: #070B14; --card: #111827; --line: #1F2937; --text: #F9FAFB; --muted: #9CA3AF; --cyan: #00F2FE; }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; padding: 40px; }
+  h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.02em; }
+  p.sub { color: var(--muted); margin: 8px 0 32px; font-size: 15px; }
+  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  .opt { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  .opt h2 { font-size: 18px; font-weight: 800; margin-bottom: 4px; }
+  .opt h2 span { color: var(--cyan); font-family: 'JetBrains Mono', monospace; margin-right: 8px; }
+  .opt .note { color: var(--muted); font-size: 13px; line-height: 1.45; min-height: 38px; margin-bottom: 16px; }
+  .big svg { width: 100%; aspect-ratio: 1; display: block; border-radius: 12%; }
+  .sizes { display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 10px; margin-top: 12px; }
+  .sizes.dark { background: #0D1117; }
+  .sizes.light { background: #FFFFFF; }
+  .sizes svg { display: block; border-radius: 12%; }
+</style>
+</head>
+<body>
+<h1>ZBSS avatar: full-name versions</h1>
+<p class="sub">Each concept is shown large, then at 64, 40, 24 and 20 px on GitHub's dark and light backgrounds.</p>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00F2FE"/><stop offset="1" stop-color="#4FACFE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#00F2FE" stop-opacity="0.18"/><stop offset="1" stop-color="#00F2FE" stop-opacity="0"/>
+    </radialGradient>
+
+    <symbol id="opt-a" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#070B14"/>
+      <rect width="512" height="512" fill="url(#glow)"/>
+      <text x="236" y="300" text-anchor="middle" font-family="JetBrains Mono" font-weight="800" font-size="230" fill="#F9FAFB" letter-spacing="-10">zb</text>
+      <rect x="370" y="318" width="74" height="30" rx="15" fill="url(#g)"/>
+    </symbol>
+
+    <symbol id="opt-b" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#070B14"/>
+      <rect width="512" height="512" fill="url(#glow)"/>
+      <polyline points="136,146 376,146 136,366 376,366" fill="none" stroke="url(#g)" stroke-width="68" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="opt-c" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#070B14"/>
+      <rect width="512" height="512" fill="url(#glow)"/>
+      <g font-family="Inter" font-weight="900" font-size="196" text-anchor="middle" dominant-baseline="central">
+        <text x="160" y="160" fill="#F9FAFB">Z</text>
+        <text x="352" y="160" fill="#F9FAFB">B</text>
+        <text x="160" y="356" fill="url(#g)">S</text>
+        <text x="352" y="356" fill="url(#g)">S</text>
+      </g>
+    </symbol>
+
+    <symbol id="opt-d" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#070B14"/>
+      <rect width="512" height="512" fill="url(#glow)"/>
+      <polygon points="318,196 408,196 194,316 104,316" fill="url(#g)"/>
+      <rect x="104" y="116" width="304" height="80" rx="20" fill="#1C2638" stroke="#2B3A52" stroke-width="4"/>
+      <circle cx="146" cy="156" r="12" fill="#00F2FE"/>
+      <circle cx="184" cy="156" r="12" fill="#22C55E"/>
+      <g stroke="#4B5B75" stroke-width="8" stroke-linecap="round">
+        <line x1="296" y1="140" x2="296" y2="172"/><line x1="324" y1="140" x2="324" y2="172"/>
+        <line x1="352" y1="140" x2="352" y2="172"/><line x1="380" y1="140" x2="380" y2="172"/>
+      </g>
+      <rect x="104" y="316" width="304" height="80" rx="20" fill="#1C2638" stroke="#2B3A52" stroke-width="4"/>
+      <circle cx="146" cy="356" r="12" fill="#00F2FE"/>
+      <circle cx="184" cy="356" r="12" fill="#22C55E"/>
+      <g stroke="#4B5B75" stroke-width="8" stroke-linecap="round">
+        <line x1="296" y1="340" x2="296" y2="372"/><line x1="324" y1="340" x2="324" y2="372"/>
+        <line x1="352" y1="340" x2="352" y2="372"/><line x1="380" y1="340" x2="380" y2="372"/>
+      </g>
+    </symbol>
+
+    <symbol id="opt-c2" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#070B14"/>
+      <rect width="512" height="512" fill="url(#glow)"/>
+      <g font-family="Inter" font-weight="900" font-size="200" text-anchor="middle" dominant-baseline="central">
+        <text x="186" y="170" fill="#F9FAFB">Z</text>
+        <text x="328" y="170" fill="#F9FAFB">B</text>
+        <text x="186" y="346" fill="url(#g)">S</text>
+        <text x="328" y="346" fill="url(#g)">S</text>
+      </g>
+    </symbol>
+
+    <symbol id="opt-e" viewBox="0 0 512 512">
+      <rect width="512" height="512" fill="#070B14"/>
+      <rect width="512" height="512" fill="url(#glow)"/>
+      <g font-family="JetBrains Mono" font-weight="800" font-size="196">
+        <text x="84" y="236" fill="#F9FAFB">zb</text>
+        <text x="84" y="404" fill="url(#g)">ss</text>
+      </g>
+      <rect x="334" y="378" width="96" height="30" rx="15" fill="url(#g)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="grid" id="grid"></div>
+
+<script>
+  const options = [
+    ['C', 'ZB / SS grid (first try)', 'The original grid, kept for comparison. The wide gaps make it read as four separate letters.', 'opt-c'],
+    ['C2', 'ZBSS block', 'The same letters set tight and heavier, so they read as one square mark. SS keeps the gradient.', 'opt-c2'],
+    ['E', 'zb/ss_ terminal', 'zb over ss in the mono font, with the gradient cursor. Spells the full name and matches the servonaut >_ icon.', 'opt-e'],
+  ];
+  const use = (id, size) => `<svg ${size ? `width="${size}" height="${size}"` : ''} viewBox="0 0 512 512"><use href="#${id}"/></svg>`;
+  const strip = (id, tone) => `<div class="sizes ${tone}">${[64, 40, 24, 20].map((s) => use(id, s)).join('')}</div>`;
+  document.getElementById('grid').innerHTML = options.map(([key, name, note, id]) => `
+    <section class="opt">
+      <h2><span>${key}</span>${name}</h2>
+      <p class="note">${note}</p>
+      <div class="big">${use(id)}</div>
+      ${strip(id, 'dark')}${strip(id, 'light')}
+    </section>`).join('');
+</script>
+</body>
+</html>
