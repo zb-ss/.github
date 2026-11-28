@@ -34,10 +34,10 @@ pipx install servonaut
 |---|---|---|--:|
 | [opencode-workflows](https://github.com/zb-ss/opencode-workflows) | Agents, commands and gate-driven development workflows (plan, implement, review) for OpenCode | TypeScript | 13 |
 | [claude-plugin-workflow](https://github.com/zb-ss/claude-plugin-workflow) | Claude Code plugin that plans, implements, reviews and signs off code changes with a team of agents on tiered models | JavaScript | 1 |
+| [claude-plugin-git](https://github.com/zb-ss/claude-plugin-git) | Claude Code plugin with Git and GitHub workflow commands (commits, pull requests, reviews, releases) using the gh CLI |  |  |
+| [claude-plugin-translate](https://github.com/zb-ss/claude-plugin-translate) | Claude Code plugin for Joomla component i18n: translation workflows with MCP tools | TypeScript |  |
 | [agent-group-mcp](https://github.com/zb-ss/agent-group-mcp) | agent-bus: a local MCP server and CLI that lets coding agents (Claude Code, Codex, OpenCode, Antigravity) message each other through a shared, persistent bus | Python |  |
 | [textual-pilot-mcp](https://github.com/zb-ss/textual-pilot-mcp) | Playwright-style automation for Textual TUIs: AI agents click widgets by selector, fill forms and capture real SVG screenshots over MCP | Python |  |
-| [claude-plugin-translate](https://github.com/zb-ss/claude-plugin-translate) | Claude Code plugin for Joomla component i18n: translation workflows with MCP tools | TypeScript |  |
-| [claude-plugin-git](https://github.com/zb-ss/claude-plugin-git) | Claude Code plugin with Git and GitHub workflow commands (commits, pull requests, reviews, releases) using the gh CLI |  |  |
 
 ### More tools
 
